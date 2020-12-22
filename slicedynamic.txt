@@ -1,0 +1,9 @@
+
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Printf("%T  %v\n", new([10]int), new([10]int))
+    fmt.Printf("%T  %v\n", make([]int, 10), make([]int, 10))
+}
